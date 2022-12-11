@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <div>
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            Email: <input type="email" required name="email"><br>
+            Password: <input type="password" min="6" name="password"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            Diet:<br>
+            <select name="diet">
+                <option value="veg">Vegitarian</option>
+                <option value="nonveg">Non Veg</option>
+                <option value="egg">Eggitarian</option>
+                <option value="vegan">Vegan</option>
+            </select>
+            <!-- Checkbox
+            <input type="checkbox" name="diet">Veg<br>
+            <input type="checkbox" name="diet">Vegan<br>
+            <input type="checkbox" name="diet">Eggitarian<br>
+            <input type="checkbox" name="diet">Non Veg<br>
+            -->
+            </div>
+            <div>
+            <input type="submit" value="Register!">
+            <input type="reset">
+            </div>
+        </form>
+    </body>
+</html>
